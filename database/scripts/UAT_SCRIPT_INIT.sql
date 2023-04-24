@@ -1,0 +1,1951 @@
+--------------------------------------------------------
+--  File created - Friday-June-12-2020   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Sequence ACTIVITY_LOG_ID_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "ACTIVITY_LOG_ID_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence ANALYSES_ANALYSIS_ID_PK_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "ANALYSES_ANALYSIS_ID_PK_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 21 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence ANALYSIS_CATEGORIES_ANALYSIS_C
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "ANALYSIS_CATEGORIES_ANALYSIS_C"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 21 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence AREAS_AREA_ID_PK_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "AREAS_AREA_ID_PK_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 21 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence BRANCH_DEPARTMENTS_BRANCH_DEPA
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "BRANCH_DEPARTMENTS_BRANCH_DEPA"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 21 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence BRANCH_DEPARTMENT_USERS_BRANCH
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "BRANCH_DEPARTMENT_USERS_BRANCH"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 21 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence CATEGORIES_CATEGORY_ID_PK_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "CATEGORIES_CATEGORY_ID_PK_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 21 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence COMPLAINANTS_COMPLAINANT_ID_PK
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "COMPLAINANTS_COMPLAINANT_ID_PK"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence COMPLAINTS_COMPLAINT_ID_PK_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "COMPLAINTS_COMPLAINT_ID_PK_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence COMPLAINT_ATTACHMENTS_COMPLAIN
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "COMPLAINT_ATTACHMENTS_COMPLAIN"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence COMPLAINT_CLOSES_COMPLAINT_CLO
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "COMPLAINT_CLOSES_COMPLAINT_CLO"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence COMPLAINT_ESCALATIONS_COMPLAIN
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "COMPLAINT_ESCALATIONS_COMPLAIN"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence COMPLAINT_MODES_COMPLAINT_MODE
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "COMPLAINT_MODES_COMPLAINT_MODE"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 21 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence COMPLAINT_REMINDERS_COMPLAINT_
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "COMPLAINT_REMINDERS_COMPLAINT_"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence COMPLAINT_REOPENS_COMPLAINT_RE
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "COMPLAINT_REOPENS_COMPLAINT_RE"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence COMPLAINT_SOLUTIONS_COMPLAINT_
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "COMPLAINT_SOLUTIONS_COMPLAINT_"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence COMPLAINT_USERS_COMPLAINT_USER
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "COMPLAINT_USERS_COMPLAINT_USER"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence FAILED_JOBS_ID_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "FAILED_JOBS_ID_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence JOBS_ID_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "JOBS_ID_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence MIGRATIONS_ID_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "MIGRATIONS_ID_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 923 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence PERMISSIONS_ID_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PERMISSIONS_ID_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence PUSH_SUBSCRIPTIONS_ID_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PUSH_SUBSCRIPTIONS_ID_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence REGIONS_REGION_ID_PK_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "REGIONS_REGION_ID_PK_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence ROLES_ID_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "ROLES_ID_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 21 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence SETTINGS_SETTING_ID_PK_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "SETTINGS_SETTING_ID_PK_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 21 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence SOLUTION_AMENDMENTS_SOLUTION_A
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "SOLUTION_AMENDMENTS_SOLUTION_A"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence SUB_CATEGORIES_SUB_CATEGORY_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "SUB_CATEGORIES_SUB_CATEGORY_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 61 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence SYSTEM_ROLES_SYSTEM_ROLE_ID_PK
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "SYSTEM_ROLES_SYSTEM_ROLE_ID_PK"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 21 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence TELESCOPE_ENTRIES_SEQUENCE_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "TELESCOPE_ENTRIES_SEQUENCE_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 41 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence USERS_USER_ID_PK_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "USERS_USER_ID_PK_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 21 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Sequence ZONES_ZONE_ID_PK_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "ZONES_ZONE_ID_PK_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE   ;
+--------------------------------------------------------
+--  DDL for Table ACTIVITY_LOG
+--------------------------------------------------------
+
+  CREATE TABLE "ACTIVITY_LOG" 
+   (	"ID" NUMBER(19,0), 
+	"LOG_NAME" VARCHAR2(191), 
+	"DESCRIPTION" CLOB, 
+	"SUBJECT_ID" NUMBER(19,0), 
+	"SUBJECT_TYPE" VARCHAR2(191), 
+	"CAUSER_ID" NUMBER(19,0), 
+	"CAUSER_TYPE" VARCHAR2(191), 
+	"PROPERTIES" CLOB, 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table ANALYSES
+--------------------------------------------------------
+
+  CREATE TABLE "ANALYSES" 
+   (	"ANALYSIS_ID_PK" NUMBER(19,0), 
+	"NAME" VARCHAR2(191), 
+	"ANALYSIS_CATEGORY_ID_FK" NUMBER(19,0), 
+	"CODE" VARCHAR2(191), 
+	"STATUS" VARCHAR2(255) DEFAULT 'ACT', 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table ANALYSIS_CATEGORIES
+--------------------------------------------------------
+
+  CREATE TABLE "ANALYSIS_CATEGORIES" 
+   (	"ANALYSIS_CATEGORY_ID_PK" NUMBER(19,0), 
+	"NAME" VARCHAR2(191), 
+	"STATUS" VARCHAR2(255) DEFAULT 'ACT', 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table AREAS
+--------------------------------------------------------
+
+  CREATE TABLE "AREAS" 
+   (	"AREA_ID_PK" NUMBER(19,0), 
+	"NAME" VARCHAR2(191), 
+	"COLOR" VARCHAR2(191), 
+	"STATUS" VARCHAR2(255) DEFAULT 'ACT', 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table BRANCH_DEPARTMENTS
+--------------------------------------------------------
+
+  CREATE TABLE "BRANCH_DEPARTMENTS" 
+   (	"BRANCH_DEPARTMENT_ID_PK" NUMBER(19,0), 
+	"REGION_ID_FK" NUMBER(19,0), 
+	"SOL_ID" NUMBER(10,0), 
+	"NAME" VARCHAR2(191), 
+	"TYPE" VARCHAR2(255) DEFAULT 'BRN', 
+	"STATUS" VARCHAR2(255) DEFAULT 'ACT', 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table BRANCH_DEPARTMENT_USERS
+--------------------------------------------------------
+
+  CREATE TABLE "BRANCH_DEPARTMENT_USERS" 
+   (	"BRANCH_DEPARTMENT_USER_ID_PK" NUMBER(19,0), 
+	"BRANCH_DEPARTMENT_ID_FK" NUMBER(19,0), 
+	"USER_ID_FK" NUMBER(19,0), 
+	"STATUS" VARCHAR2(255) DEFAULT 'ACT', 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table CATEGORIES
+--------------------------------------------------------
+
+  CREATE TABLE "CATEGORIES" 
+   (	"CATEGORY_ID_PK" NUMBER(19,0), 
+	"NAME" VARCHAR2(191), 
+	"COLOR" VARCHAR2(191), 
+	"REJECT_REASON" VARCHAR2(191), 
+	"REJECTED_BY_FK" NUMBER(19,0), 
+	"STATUS" VARCHAR2(255) DEFAULT 'PEN', 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table COMPLAINANTS
+--------------------------------------------------------
+
+  CREATE TABLE "COMPLAINANTS" 
+   (	"COMPLAINANT_ID_PK" NUMBER(19,0),
+	"TITLE" VARCHAR2(255) DEFAULT 'Mr',
+	"FIRST_NAME" VARCHAR2(50), 
+	"LAST_NAME" VARCHAR2(75), 
+	"NIC" VARCHAR2(15), 
+	"CONTACT_NO" VARCHAR2(15), 
+	"STATUS" VARCHAR2(255) DEFAULT 'ACT', 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table COMPLAINTS
+--------------------------------------------------------
+
+  CREATE TABLE "COMPLAINTS" 
+   (	"COMPLAINT_ID_PK" NUMBER(19,0), 
+	"REFERENCE_NUMBER" VARCHAR2(191), 
+	"CATEGORY_ID_FK" NUMBER(10,0), 
+	"SUB_CATEGORY_ID_FK" NUMBER(10,0), 
+	"COMPLAINANT_ID_FK" NUMBER(10,0), 
+	"COMPLAINT_MODE_ID_FK" NUMBER(10,0), 
+	"ACCOUNT_NO" VARCHAR2(20), 
+	"COMPLAINT" CLOB, 
+	"PRIORITY_LEVEL" VARCHAR2(255) DEFAULT 'NOR', 
+	"TYPE" VARCHAR2(255) DEFAULT 'CMPLA', 
+	"OPEN_DATE" DATE, 
+	"CLOSE_DATE" DATE, 
+	"STATUS" VARCHAR2(255) DEFAULT 'PEN', 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table COMPLAINT_ATTACHMENTS
+--------------------------------------------------------
+
+  CREATE TABLE "COMPLAINT_ATTACHMENTS" 
+   (	"COMPLAINT_ATTACHMENT_ID_PK" NUMBER(19,0), 
+	"COMPLAINT_ID_FK" NUMBER(19,0), 
+	"ATTACH_TYPE" VARCHAR2(255), 
+	"SOURCE" CLOB, 
+	"STATUS" VARCHAR2(255) DEFAULT 'EXST', 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table COMPLAINT_CLOSES
+--------------------------------------------------------
+
+  CREATE TABLE "COMPLAINT_CLOSES" 
+   (	"COMPLAINT_CLOSE_ID_PK" NUMBER(19,0), 
+	"COMPLAINT_ID_FK" NUMBER(19,0), 
+	"CLOSED_BY_ID_FK" NUMBER(19,0), 
+	"REMARKS" CLOB, 
+	"STATUS" VARCHAR2(255) DEFAULT 'INP', 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table COMPLAINT_ESCALATIONS
+--------------------------------------------------------
+
+  CREATE TABLE "COMPLAINT_ESCALATIONS" 
+   (	"COMPLAINT_ESCALATION_ID_PK" NUMBER(19,0), 
+	"COMPLAINT_ID_FK" NUMBER(19,0), 
+	"OWNER_ID_FK" NUMBER(19,0), 
+	"ESCALATION_INDEX" CHAR(2) DEFAULT '0', 
+	"ESCALATED_TO_FK" NUMBER(19,0), 
+	"ESCALATED_BY_FK" NUMBER(19,0), 
+	"REMARKS" CLOB, 
+	"STATUS" VARCHAR2(255) DEFAULT 'INP', 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table COMPLAINT_MODES
+--------------------------------------------------------
+
+  CREATE TABLE "COMPLAINT_MODES" 
+   (	"COMPLAINT_MODE_ID_PK" NUMBER(19,0), 
+	"NAME" VARCHAR2(191), 
+	"CODE" VARCHAR2(5), 
+	"COLOR" VARCHAR2(191), 
+	"STATUS" VARCHAR2(255) DEFAULT 'ACT', 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table COMPLAINT_REMINDERS
+--------------------------------------------------------
+
+  CREATE TABLE "COMPLAINT_REMINDERS" 
+   (	"COMPLAINT_REMINDER_ID_PK" NUMBER(19,0), 
+	"COMPLAINT_ID_FK" NUMBER(19,0), 
+	"REMINDED_BY_FK" NUMBER(19,0), 
+	"REMINDER_INDEX" CHAR(1) DEFAULT '0', 
+	"REMINDER_MODE" VARCHAR2(255) DEFAULT 'EMAIL', 
+	"REMINDER_DATE" DATE, 
+	"REMINDER" CLOB, 
+	"STATUS" VARCHAR2(255) DEFAULT 'INP', 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table COMPLAINT_REOPENS
+--------------------------------------------------------
+
+  CREATE TABLE "COMPLAINT_REOPENS" 
+   (	"COMPLAINT_REOPEN_ID_PK" NUMBER(19,0), 
+	"COMPLAINT_ID_FK" NUMBER(19,0), 
+	"REOPEN_BY_ID_FK" NUMBER(19,0), 
+	"REOPEN_INDEX" CHAR(2) DEFAULT '0', 
+	"REOPEN_REASON" CLOB, 
+	"TYPE" VARCHAR2(255), 
+	"STATUS" VARCHAR2(255) DEFAULT 'INP', 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table COMPLAINT_SOLUTIONS
+--------------------------------------------------------
+
+  CREATE TABLE "COMPLAINT_SOLUTIONS" 
+   (	"COMPLAINT_SOLUTION_ID_PK" NUMBER(19,0), 
+	"COMPLAINT_ID_FK" NUMBER(19,0), 
+	"OWNER_ID_FK" NUMBER(19,0), 
+	"RESOLVED_BY_FK" NUMBER(19,0), 
+	"ACTION_TAKEN" CLOB, 
+	"STATUS" VARCHAR2(255) DEFAULT 'PEN', 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table COMPLAINT_USERS
+--------------------------------------------------------
+
+  CREATE TABLE "COMPLAINT_USERS" 
+   (	"COMPLAINT_USER_ID_PK" NUMBER(19,0), 
+	"COMPLAINT_ID_FK" NUMBER(19,0), 
+	"USER_ID_FK" NUMBER(19,0), 
+	"BRANCH_DEPARTMENT_ID_FK" NUMBER(19,0), 
+	"USER_ROLE" VARCHAR2(255) DEFAULT 'RECPT', 
+	"ASSIGNED_BY_ID_FK" NUMBER(19,0), 
+	"ROLE_INDEX" CHAR(1) DEFAULT '0', 
+	"REJECT_REASON" CLOB, 
+	"STATUS" VARCHAR2(255) DEFAULT 'ACT', 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table FAILED_JOBS
+--------------------------------------------------------
+
+  CREATE TABLE "FAILED_JOBS" 
+   (	"ID" NUMBER(19,0), 
+	"CONNECTION" CLOB, 
+	"QUEUE" CLOB, 
+	"PAYLOAD" CLOB, 
+	"EXCEPTION" CLOB, 
+	"FAILED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table JOBS
+--------------------------------------------------------
+
+  CREATE TABLE "JOBS" 
+   (	"ID" NUMBER(19,0), 
+	"QUEUE" VARCHAR2(191), 
+	"PAYLOAD" CLOB, 
+	"ATTEMPTS" NUMBER(3,0), 
+	"RESERVED_AT" NUMBER(10,0), 
+	"AVAILABLE_AT" NUMBER(10,0), 
+	"CREATED_AT" NUMBER(10,0)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table MIGRATIONS
+--------------------------------------------------------
+
+  CREATE TABLE "MIGRATIONS" 
+   (	"ID" NUMBER(10,0), 
+	"MIGRATION" VARCHAR2(191), 
+	"BATCH" NUMBER(10,0)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table MODEL_HAS_PERMISSIONS
+--------------------------------------------------------
+
+  CREATE TABLE "MODEL_HAS_PERMISSIONS" 
+   (	"PERMISSION_ID" NUMBER(10,0), 
+	"MODEL_TYPE" VARCHAR2(191), 
+	"MODEL_ID" NUMBER(19,0)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table MODEL_HAS_ROLES
+--------------------------------------------------------
+
+  CREATE TABLE "MODEL_HAS_ROLES" 
+   (	"ROLE_ID" NUMBER(10,0), 
+	"MODEL_TYPE" VARCHAR2(191), 
+	"MODEL_ID" NUMBER(19,0)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table NOTIFICATIONS
+--------------------------------------------------------
+
+  CREATE TABLE "NOTIFICATIONS" 
+   (	"ID" CHAR(36), 
+	"TYPE" VARCHAR2(191), 
+	"NOTIFIABLE_TYPE" VARCHAR2(191), 
+	"NOTIFIABLE_ID" NUMBER(19,0), 
+	"DATA" CLOB, 
+	"READ_AT" TIMESTAMP (6), 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table PASSWORD_RESETS
+--------------------------------------------------------
+
+  CREATE TABLE "PASSWORD_RESETS" 
+   (	"EMAIL" VARCHAR2(191), 
+	"TOKEN" VARCHAR2(191), 
+	"CREATED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table PERMISSIONS
+--------------------------------------------------------
+
+  CREATE TABLE "PERMISSIONS" 
+   (	"ID" NUMBER(10,0), 
+	"NAME" VARCHAR2(191), 
+	"GUARD_NAME" VARCHAR2(191), 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table PUSH_SUBSCRIPTIONS
+--------------------------------------------------------
+
+  CREATE TABLE "PUSH_SUBSCRIPTIONS" 
+   (	"ID" NUMBER(10,0), 
+	"SUBSCRIBABLE_TYPE" VARCHAR2(191), 
+	"SUBSCRIBABLE_ID" NUMBER(19,0), 
+	"ENDPOINT" VARCHAR2(255), 
+	"PUBLIC_KEY" VARCHAR2(191), 
+	"AUTH_TOKEN" VARCHAR2(191), 
+	"CONTENT_ENCODING" VARCHAR2(191), 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table REGIONS
+--------------------------------------------------------
+
+  CREATE TABLE "REGIONS" 
+   (	"REGION_ID_PK" NUMBER(19,0), 
+	"ZONE_ID_FK" NUMBER(19,0), 
+	"MANAGER_ID_FK" NUMBER(19,0), 
+	"NAME" VARCHAR2(191), 
+	"NUMBER" NUMBER(10,0), 
+	"REJECT_REASON" VARCHAR2(191), 
+	"REJECTED_BY_FK" NUMBER(19,0), 
+	"STATUS" VARCHAR2(255) DEFAULT 'ACT', 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table ROLES
+--------------------------------------------------------
+
+  CREATE TABLE "ROLES" 
+   (	"ID" NUMBER(10,0), 
+	"NAME" VARCHAR2(191), 
+	"GUARD_NAME" VARCHAR2(191), 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table ROLE_HAS_PERMISSIONS
+--------------------------------------------------------
+
+  CREATE TABLE "ROLE_HAS_PERMISSIONS" 
+   (	"PERMISSION_ID" NUMBER(10,0), 
+	"ROLE_ID" NUMBER(10,0)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table SETTINGS
+--------------------------------------------------------
+
+  CREATE TABLE "SETTINGS" 
+   (	"SETTING_ID_PK" NUMBER(19,0), 
+	"NAME" VARCHAR2(191), 
+	"VALUE" VARCHAR2(191), 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table SOLUTION_AMENDMENTS
+--------------------------------------------------------
+
+  CREATE TABLE "SOLUTION_AMENDMENTS" 
+   (	"SOLUTION_AMENDMENT_ID_PK" NUMBER(19,0), 
+	"COMPLAINT_SOLUTION_ID_FK" NUMBER(19,0), 
+	"AMENDMENT_BY_FK" NUMBER(19,0), 
+	"AMENDMENT" CLOB, 
+	"STATUS" VARCHAR2(255) DEFAULT 'VFD', 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table SUB_CATEGORIES
+--------------------------------------------------------
+
+  CREATE TABLE "SUB_CATEGORIES" 
+   (	"SUB_CATEGORY_ID_PK" NUMBER(19,0), 
+	"CATEGORY_ID_FK" NUMBER(19,0), 
+	"NAME" VARCHAR2(191), 
+	"COLOR" VARCHAR2(191), 
+	"AREA_ID_FK" NUMBER(19,0), 
+	"REJECT_REASON" VARCHAR2(191), 
+	"REJECTED_BY_FK" NUMBER(19,0), 
+	"STATUS" VARCHAR2(255) DEFAULT 'PEN', 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table SYSTEM_ROLES
+--------------------------------------------------------
+
+  CREATE TABLE "SYSTEM_ROLES" 
+   (	"SYSTEM_ROLE_ID_PK" NUMBER(19,0), 
+	"KEY" VARCHAR2(191), 
+	"VALUE" CLOB, 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table USERS
+--------------------------------------------------------
+
+  CREATE TABLE "USERS" 
+   (	"USER_ID_PK" NUMBER(19,0), 
+	"OBJECTGUID" VARCHAR2(191), 
+	"FIRST_NAME" VARCHAR2(191), 
+	"LAST_NAME" VARCHAR2(191), 
+	"EMP_ID" VARCHAR2(191), 
+	"EMAIL" VARCHAR2(191), 
+	"OFFICE_EMAIL" VARCHAR2(191), 
+	"USERNAME" VARCHAR2(191), 
+	"EMAIL_VERIFIED_AT" TIMESTAMP (6), 
+	"PASSWORD" VARCHAR2(191), 
+	"REMEMBER_TOKEN" VARCHAR2(100), 
+	"ACTIVE" CHAR(1) DEFAULT '1', 
+	"IMAGE" CLOB, 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table ZONES
+--------------------------------------------------------
+
+  CREATE TABLE "ZONES" 
+   (	"ZONE_ID_PK" NUMBER(19,0), 
+	"MANAGER_ID_FK" NUMBER(19,0), 
+	"NAME" VARCHAR2(191), 
+	"NUMBER" NUMBER(10,0), 
+	"REJECT_REASON" VARCHAR2(191), 
+	"REJECTED_BY_FK" NUMBER(19,0), 
+	"STATUS" VARCHAR2(255) DEFAULT 'ACT', 
+	"CREATED_AT" TIMESTAMP (6), 
+	"UPDATED_AT" TIMESTAMP (6), 
+	"DELETED_AT" TIMESTAMP (6)
+   ) ;
+REM INSERTING into ACTIVITY_LOG
+SET DEFINE OFF;
+REM INSERTING into ANALYSES
+SET DEFINE OFF;
+Insert into ANALYSES (ANALYSIS_ID_PK,NAME,ANALYSIS_CATEGORY_ID_FK,CODE,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (1,'MODE-WISE ANALYSIS',1,'MWA','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into ANALYSES (ANALYSIS_ID_PK,NAME,ANALYSIS_CATEGORY_ID_FK,CODE,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (2,'COMPLAINTS RECEIVED THROUGH TOP MANAGMENT',1,'CRTTM','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into ANALYSES (ANALYSIS_ID_PK,NAME,ANALYSIS_CATEGORY_ID_FK,CODE,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (3,'AREA-WISE ANALYSIS WITH WEIGHTAGE',1,'AWAW','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into ANALYSES (ANALYSIS_ID_PK,NAME,ANALYSIS_CATEGORY_ID_FK,CODE,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (4,'AREA-WISE DETAILED ANALYSIS',1,'AWDA','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into ANALYSES (ANALYSIS_ID_PK,NAME,ANALYSIS_CATEGORY_ID_FK,CODE,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (5,'AREA-WISE OVERALL DETAILED ANALYSIS',1,'AWODA','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into ANALYSES (ANALYSIS_ID_PK,NAME,ANALYSIS_CATEGORY_ID_FK,CODE,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (6,'CATEGORY WISE ANALYSIS',1,'CWA','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into ANALYSES (ANALYSIS_ID_PK,NAME,ANALYSIS_CATEGORY_ID_FK,CODE,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (7,'CATEGORY WISE DETAILED ANALYSIS',1,'CWDA','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into ANALYSES (ANALYSIS_ID_PK,NAME,ANALYSIS_CATEGORY_ID_FK,CODE,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (8,'BRANCH SERVICE LAPSES',1,'BSL','INACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into ANALYSES (ANALYSIS_ID_PK,NAME,ANALYSIS_CATEGORY_ID_FK,CODE,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (9,'CARD CENTRE',1,'CC','INACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+REM INSERTING into ANALYSIS_CATEGORIES
+SET DEFINE OFF;
+Insert into ANALYSIS_CATEGORIES (ANALYSIS_CATEGORY_ID_PK,NAME,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (1,'CUSTOMER COMPLAINTS','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into ANALYSIS_CATEGORIES (ANALYSIS_CATEGORY_ID_PK,NAME,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (2,'COMPLIMENTS','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+REM INSERTING into AREAS
+SET DEFINE OFF;
+Insert into AREAS (AREA_ID_PK,NAME,COLOR,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (1,'Efficiency','#1ABC9C','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into AREAS (AREA_ID_PK,NAME,COLOR,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (2,'Staff Related','#3498DB','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into AREAS (AREA_ID_PK,NAME,COLOR,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (3,'Facilities','#E67E22','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into AREAS (AREA_ID_PK,NAME,COLOR,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (4,'Others','#34495E','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+REM INSERTING into BRANCH_DEPARTMENTS
+SET DEFINE OFF;
+Insert into BRANCH_DEPARTMENTS (BRANCH_DEPARTMENT_ID_PK,REGION_ID_FK,SOL_ID,NAME,TYPE,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (1,null,831,'Customer Care Center','DEPT','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into BRANCH_DEPARTMENTS (BRANCH_DEPARTMENT_ID_PK,REGION_ID_FK,SOL_ID,NAME,TYPE,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (2,null,960,'Card Center','DEPT','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+REM INSERTING into BRANCH_DEPARTMENT_USERS
+SET DEFINE OFF;
+Insert into BRANCH_DEPARTMENT_USERS (BRANCH_DEPARTMENT_USER_ID_PK,BRANCH_DEPARTMENT_ID_FK,USER_ID_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (1,1,1,'ACT',to_timestamp('12-JUN-20 04.25.27.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.27.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into BRANCH_DEPARTMENT_USERS (BRANCH_DEPARTMENT_USER_ID_PK,BRANCH_DEPARTMENT_ID_FK,USER_ID_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (2,1,2,'ACT',to_timestamp('12-JUN-20 04.25.27.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.27.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into BRANCH_DEPARTMENT_USERS (BRANCH_DEPARTMENT_USER_ID_PK,BRANCH_DEPARTMENT_ID_FK,USER_ID_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (3,2,3,'ACT',to_timestamp('12-JUN-20 04.25.27.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.27.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into BRANCH_DEPARTMENT_USERS (BRANCH_DEPARTMENT_USER_ID_PK,BRANCH_DEPARTMENT_ID_FK,USER_ID_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (4,2,4,'ACT',to_timestamp('12-JUN-20 04.25.27.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.27.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into BRANCH_DEPARTMENT_USERS (BRANCH_DEPARTMENT_USER_ID_PK,BRANCH_DEPARTMENT_ID_FK,USER_ID_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (5,2,5,'ACT',to_timestamp('12-JUN-20 04.25.27.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.27.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into BRANCH_DEPARTMENT_USERS (BRANCH_DEPARTMENT_USER_ID_PK,BRANCH_DEPARTMENT_ID_FK,USER_ID_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (6,2,6,'ACT',to_timestamp('12-JUN-20 04.25.27.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.27.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into BRANCH_DEPARTMENT_USERS (BRANCH_DEPARTMENT_USER_ID_PK,BRANCH_DEPARTMENT_ID_FK,USER_ID_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (7,2,7,'ACT',to_timestamp('12-JUN-20 04.25.27.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.27.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into BRANCH_DEPARTMENT_USERS (BRANCH_DEPARTMENT_USER_ID_PK,BRANCH_DEPARTMENT_ID_FK,USER_ID_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (8,2,8,'ACT',to_timestamp('12-JUN-20 04.25.27.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.27.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+REM INSERTING into CATEGORIES
+SET DEFINE OFF;
+Insert into CATEGORIES (CATEGORY_ID_PK,NAME,COLOR,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (1,'ATM/CDM Failures','#fa9600',null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into CATEGORIES (CATEGORY_ID_PK,NAME,COLOR,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (2,'Branch service Lapses','#00fa00',null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into CATEGORIES (CATEGORY_ID_PK,NAME,COLOR,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (3,'Card Centre','#fa9600',null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into CATEGORIES (CATEGORY_ID_PK,NAME,COLOR,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (4,'CCC','#be0000',null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into CATEGORIES (CATEGORY_ID_PK,NAME,COLOR,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (5,'Compliance Violations','#005a6e',null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into CATEGORIES (CATEGORY_ID_PK,NAME,COLOR,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (6,'Credit related','#460000',null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into CATEGORIES (CATEGORY_ID_PK,NAME,COLOR,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (7,'E Remmittance','#00fa00',null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into CATEGORIES (CATEGORY_ID_PK,NAME,COLOR,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (8,'Electronic Banking','#00fa00',null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into CATEGORIES (CATEGORY_ID_PK,NAME,COLOR,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (9,'HR','#fa8200',null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into CATEGORIES (CATEGORY_ID_PK,NAME,COLOR,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (10,'Interest Rates','#004600',null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into CATEGORIES (CATEGORY_ID_PK,NAME,COLOR,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (11,'International Operations','#82005a',null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into CATEGORIES (CATEGORY_ID_PK,NAME,COLOR,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (12,'IT Related','#0000e6',null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into CATEGORIES (CATEGORY_ID_PK,NAME,COLOR,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (13,'Operations related','#009600',null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into CATEGORIES (CATEGORY_ID_PK,NAME,COLOR,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (14,'Others','#00005a',null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into CATEGORIES (CATEGORY_ID_PK,NAME,COLOR,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (15,'Trade related','#0000e6',null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into CATEGORIES (CATEGORY_ID_PK,NAME,COLOR,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (16,'Unsuccesful Transactions','#00e6be',null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+REM INSERTING into COMPLAINANTS
+SET DEFINE OFF;
+REM INSERTING into COMPLAINTS
+SET DEFINE OFF;
+REM INSERTING into COMPLAINT_ATTACHMENTS
+SET DEFINE OFF;
+REM INSERTING into COMPLAINT_CLOSES
+SET DEFINE OFF;
+REM INSERTING into COMPLAINT_ESCALATIONS
+SET DEFINE OFF;
+REM INSERTING into COMPLAINT_MODES
+SET DEFINE OFF;
+Insert into COMPLAINT_MODES (COMPLAINT_MODE_ID_PK,NAME,CODE,COLOR,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (1,'Email','E','#16A085','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into COMPLAINT_MODES (COMPLAINT_MODE_ID_PK,NAME,CODE,COLOR,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (2,'Mobile','M','#9B59B6','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into COMPLAINT_MODES (COMPLAINT_MODE_ID_PK,NAME,CODE,COLOR,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (3,'Social Media','S','#2C3E50','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into COMPLAINT_MODES (COMPLAINT_MODE_ID_PK,NAME,CODE,COLOR,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (4,'Branch/Department','B','#E74C3C','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into COMPLAINT_MODES (COMPLAINT_MODE_ID_PK,NAME,CODE,COLOR,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (5,'CSAT','D','#F1C40F','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into COMPLAINT_MODES (COMPLAINT_MODE_ID_PK,NAME,CODE,COLOR,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (6,'Corporate Management','C','#7F8C8D','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into COMPLAINT_MODES (COMPLAINT_MODE_ID_PK,NAME,CODE,COLOR,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (7,'Post','P','#2980B9','ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+REM INSERTING into COMPLAINT_REMINDERS
+SET DEFINE OFF;
+REM INSERTING into COMPLAINT_REOPENS
+SET DEFINE OFF;
+REM INSERTING into COMPLAINT_SOLUTIONS
+SET DEFINE OFF;
+REM INSERTING into COMPLAINT_USERS
+SET DEFINE OFF;
+REM INSERTING into FAILED_JOBS
+SET DEFINE OFF;
+REM INSERTING into JOBS
+SET DEFINE OFF;
+REM INSERTING into MIGRATIONS
+SET DEFINE OFF;
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (886,'2014_10_12_100000_create_password_resets_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (885,'2014_10_12_000000_create_users_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (887,'2019_06_10_091913_create_complains_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (888,'2019_06_10_094426_create_complain_solutions_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (889,'2019_06_10_095113_create_complain_reminders_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (890,'2019_06_11_041946_create_permission_tables',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (891,'2019_06_11_070311_create_regions_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (892,'2019_06_11_070532_create_categories_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (893,'2019_06_11_070550_create_sub_categories_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (894,'2019_06_11_102855_create_branch_departments_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (895,'2019_06_12_164518_create_complainants_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (896,'2019_06_14_050352_create_complain_escalations_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (897,'2019_06_21_025513_create_complain_attachments_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (898,'2019_06_23_100050_create_settings_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (899,'2019_06_25_102206_create_branch_department_users_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (900,'2019_07_15_175735_create_activity_log_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (901,'2019_07_26_035421_create_jobs_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (902,'2019_07_26_044939_create_failed_jobs_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (903,'2019_07_26_053722_create_areas_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (904,'2019_07_30_110735_create_complaint_modes_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (905,'2019_08_02_060723_create_analyses_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (906,'2019_08_02_083851_create_analysis_categories_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (907,'2019_08_28_041340_create_zones_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (908,'2019_09_15_103755_create_push_subscriptions_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (909,'2019_09_15_105636_create_notifications_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (910,'2019_12_08_153112_create_complaint_users_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (911,'2020_05_14_085800_create_complaint_reopens_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (912,'2020_05_17_155132_create_solution_amendments_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (913,'2020_05_24_222600_create_complaint_completions_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (914,'2020_05_27_213211_create_system_roles_table',1);
+Insert into MIGRATIONS (ID,MIGRATION,BATCH) values (915,'2020_06_03_211852_create_complaint_closes_table',1);
+REM INSERTING into MODEL_HAS_PERMISSIONS
+SET DEFINE OFF;
+REM INSERTING into MODEL_HAS_ROLES
+SET DEFINE OFF;
+Insert into MODEL_HAS_ROLES (ROLE_ID,MODEL_TYPE,MODEL_ID) values (1,'App\Models\Entities\User',1);
+Insert into MODEL_HAS_ROLES (ROLE_ID,MODEL_TYPE,MODEL_ID) values (2,'App\Models\Entities\User',2);
+Insert into MODEL_HAS_ROLES (ROLE_ID,MODEL_TYPE,MODEL_ID) values (6,'App\Models\Entities\User',3);
+Insert into MODEL_HAS_ROLES (ROLE_ID,MODEL_TYPE,MODEL_ID) values (6,'App\Models\Entities\User',4);
+Insert into MODEL_HAS_ROLES (ROLE_ID,MODEL_TYPE,MODEL_ID) values (6,'App\Models\Entities\User',5);
+Insert into MODEL_HAS_ROLES (ROLE_ID,MODEL_TYPE,MODEL_ID) values (6,'App\Models\Entities\User',6);
+Insert into MODEL_HAS_ROLES (ROLE_ID,MODEL_TYPE,MODEL_ID) values (6,'App\Models\Entities\User',7);
+Insert into MODEL_HAS_ROLES (ROLE_ID,MODEL_TYPE,MODEL_ID) values (6,'App\Models\Entities\User',8);
+Insert into MODEL_HAS_ROLES (ROLE_ID,MODEL_TYPE,MODEL_ID) values (6,'App\Models\Entities\User',9);
+Insert into MODEL_HAS_ROLES (ROLE_ID,MODEL_TYPE,MODEL_ID) values (6,'App\Models\Entities\User',10);
+Insert into MODEL_HAS_ROLES (ROLE_ID,MODEL_TYPE,MODEL_ID) values (6,'App\Models\Entities\User',11);
+Insert into MODEL_HAS_ROLES (ROLE_ID,MODEL_TYPE,MODEL_ID) values (6,'App\Models\Entities\User',12);
+Insert into MODEL_HAS_ROLES (ROLE_ID,MODEL_TYPE,MODEL_ID) values (6,'App\Models\Entities\User',13);
+REM INSERTING into NOTIFICATIONS
+SET DEFINE OFF;
+REM INSERTING into PASSWORD_RESETS
+SET DEFINE OFF;
+REM INSERTING into PERMISSIONS
+SET DEFINE OFF;
+REM INSERTING into PUSH_SUBSCRIPTIONS
+SET DEFINE OFF;
+REM INSERTING into REGIONS
+SET DEFINE OFF;
+REM INSERTING into ROLES
+SET DEFINE OFF;
+Insert into ROLES (ID,NAME,GUARD_NAME,CREATED_AT,UPDATED_AT) values (1,'admin','web',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+Insert into ROLES (ID,NAME,GUARD_NAME,CREATED_AT,UPDATED_AT) values (2,'admin_ccc','web',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+Insert into ROLES (ID,NAME,GUARD_NAME,CREATED_AT,UPDATED_AT) values (3,'zonal_manager','web',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+Insert into ROLES (ID,NAME,GUARD_NAME,CREATED_AT,UPDATED_AT) values (4,'regional_manager','web',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+Insert into ROLES (ID,NAME,GUARD_NAME,CREATED_AT,UPDATED_AT) values (5,'branch_manager','web',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+Insert into ROLES (ID,NAME,GUARD_NAME,CREATED_AT,UPDATED_AT) values (6,'user','web',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'));
+REM INSERTING into ROLE_HAS_PERMISSIONS
+SET DEFINE OFF;
+REM INSERTING into SETTINGS
+SET DEFINE OFF;
+Insert into SETTINGS (SETTING_ID_PK,NAME,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (1,'send_notifications','Y,1,0,0,0',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SETTINGS (SETTING_ID_PK,NAME,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (2,'send_reminder','N,3,10,17',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+REM INSERTING into SOLUTION_AMENDMENTS
+SET DEFINE OFF;
+REM INSERTING into SUB_CATEGORIES
+SET DEFINE OFF;
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (1,1,'Technical Error','#e68200',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (2,1,'Non availability of a machine','#fa4600',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (3,1,'Non availability of function','#82be00',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (4,2,'Efficiency','#fa6e00',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (5,2,'Knowledge gap','#aa0000',2,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (6,2,'Staff Attitude Issues','#46d200',2,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (7,2,'Facilities','#5a00aa',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (8,2,'Email/Vishwa Requests Not Acknowledged','#00006e',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (9,2,'Bank Charges','#46aa00',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (10,2,'Delay/Non attendance of customer requests','#5a00d2',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (11,2,'Staff Negligence','#6e5a00',2,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (12,3,'Delay/Non attendance of customer requests','#0000e6',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (13,3,'Statments Delay','#000082',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (14,3,'CIP/ESP Transactions','#5a0000',1,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (15,3,'Duplicate transactions','#0000d2',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (16,3,'Card Application Process','#6e00d2',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (17,3,'Card Sales','#00006e',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (18,3,'Delaying/ Upgrading Balance transfers','#00be00',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (19,3,'Card Delivery Related','#004600',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (20,3,'Rewards Points','#000096',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (21,3,'Offers and Promotional Campaign','#6e00be',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (22,3,'Bank Charges','#000096',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (23,3,'Billing Issue','#0000e6',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (24,3,'Unsuccessful POS Transaction','#6ebe00',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (25,3,'Unsuccessful ECOM Transaction','#460046',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (26,3,'Staff Attitude Issues','#5a00fa',2,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (27,3,'Dispute Transaction','#0000be',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (28,3,'Compliance Violation','#0000be',2,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (29,4,'Knowledge Gap','#aa9600',2,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (30,4,'Staff Attitude Issues','#0000be',2,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (31,4,'Inability for Resolution','#00006e',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (32,4,'Connectivity','#e6d200',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (33,5,'Compliance Violations','#0096be',2,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (34,6,'Interest Rates','#5a0000',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (35,6,'Delay on processing','#00006e',1,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (36,6,'Facilities Rejected','#960000',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (37,6,'Bank Charges','#be00e6',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (38,7,'Foreign Representative','#e65a00',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (39,7,'Delay in Receipt','#00be5a',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (40,8,'Pay App','#d20000',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (41,8,'Pay Easy','#e60000',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (42,8,'Ali Pay','#00e600',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (43,8,'Mobile cash','#96e600',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (44,8,'SVC','#0000d2',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (45,8,'IPG','#00006e',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (46,8,'WePay','#008296',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (47,9,'Employee Related','#000046',2,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (48,9,'Process Related','#0000fa',1,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (49,12,'unable to perform online transactions via Debit Card','#5afa00',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (50,13,'Bank Charges','#000096',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (51,13,'Process Related','#008200',1,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (52,13,'Vishwa unsuccesful Transactions','#9600aa',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (53,13,'Vishwa Password Issues','#46fa00',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (54,13,'Mobile App','#9600be',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (55,13,'OTP Issues','#6e0000',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (56,14,'Others','#6e6e00',4,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (57,16,'ATM Transaction Unsuccessful','#5a00fa',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (58,16,'KIOSK deposits Unsuccessful','#000096',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SUB_CATEGORIES (SUB_CATEGORY_ID_PK,CATEGORY_ID_FK,NAME,COLOR,AREA_ID_FK,REJECT_REASON,REJECTED_BY_FK,STATUS,CREATED_AT,UPDATED_AT,DELETED_AT) values (59,16,'Z reload Unsuccessful','#5a4600',3,null,null,'ACT',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+REM INSERTING into SYSTEM_ROLES
+SET DEFINE OFF;
+Insert into SYSTEM_ROLES (SYSTEM_ROLE_ID_PK,KEY,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (1,'ADMIN_ROLE','admin',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SYSTEM_ROLES (SYSTEM_ROLE_ID_PK,KEY,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (2,'ADMIN_CCC_ROLE','admin_ccc',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SYSTEM_ROLES (SYSTEM_ROLE_ID_PK,KEY,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (3,'USER_ROLE','user',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SYSTEM_ROLES (SYSTEM_ROLE_ID_PK,KEY,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (4,'ZONAL_MNGR','zonal_manager',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SYSTEM_ROLES (SYSTEM_ROLE_ID_PK,KEY,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (5,'REGIONAL_MNGR','regional_manager',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SYSTEM_ROLES (SYSTEM_ROLE_ID_PK,KEY,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (6,'BRANCH_MNGR','branch_manager',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SYSTEM_ROLES (SYSTEM_ROLE_ID_PK,KEY,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (7,'ADMIN_ROLES','admin',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SYSTEM_ROLES (SYSTEM_ROLE_ID_PK,KEY,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (8,'CCC_ROLES','admin_ccc',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SYSTEM_ROLES (SYSTEM_ROLE_ID_PK,KEY,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (9,'USER_ROLES','user',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SYSTEM_ROLES (SYSTEM_ROLE_ID_PK,KEY,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (10,'ZONAL_ADMIN_ROLES','zonal_manager',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SYSTEM_ROLES (SYSTEM_ROLE_ID_PK,KEY,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (11,'ZONAL_ROLES','zonal_manager',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SYSTEM_ROLES (SYSTEM_ROLE_ID_PK,KEY,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (12,'REGIONAL_ADMIN_ROLES','regional_manager',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SYSTEM_ROLES (SYSTEM_ROLE_ID_PK,KEY,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (13,'REGIONAL_ROLES','regional_manager',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SYSTEM_ROLES (SYSTEM_ROLE_ID_PK,KEY,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (14,'BRANCH_ADMIN_ROLES','branch_manager',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SYSTEM_ROLES (SYSTEM_ROLE_ID_PK,KEY,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (15,'BRANCH_ROLES','branch_manager',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SYSTEM_ROLES (SYSTEM_ROLE_ID_PK,KEY,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (16,'COMPLAINT_RAISE_ROLES','admin_ccc|zonal_manager|regional_manager|branch_manager|user',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SYSTEM_ROLES (SYSTEM_ROLE_ID_PK,KEY,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (17,'COMPLAINT_VIEW_ROLES','admin|admin_ccc|zonal_manager|regional_manager|branch_manager|user',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SYSTEM_ROLES (SYSTEM_ROLE_ID_PK,KEY,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (18,'SOLUTION_VIEW_ROLES','admin|admin_ccc|zonal_manager|regional_manager|branch_manager|user',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SYSTEM_ROLES (SYSTEM_ROLE_ID_PK,KEY,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (19,'ADMIN_VIEW_ROLES','admin|admin_ccc',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into SYSTEM_ROLES (SYSTEM_ROLE_ID_PK,KEY,VALUE,CREATED_AT,UPDATED_AT,DELETED_AT) values (20,'ALL','admin|admin_ccc|zonal_manager|regional_manager|branch_manager|user',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+REM INSERTING into USERS
+SET DEFINE OFF;
+Insert into USERS (USER_ID_PK,OBJECTGUID,FIRST_NAME,LAST_NAME,EMP_ID,EMAIL,OFFICE_EMAIL,USERNAME,EMAIL_VERIFIED_AT,PASSWORD,REMEMBER_TOKEN,ACTIVE,CREATED_AT,UPDATED_AT,DELETED_AT) values (1,null,'Madhavi','Bandaranayake',null,'madhavib@sampath.lk',null,null,null,'$2y$10$T/7jvx4mb62GOQ8laUJNV.bxlNmqNk7uREsJwLfhN6jcXPoBaIDgO',null,'1',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into USERS (USER_ID_PK,OBJECTGUID,FIRST_NAME,LAST_NAME,EMP_ID,EMAIL,OFFICE_EMAIL,USERNAME,EMAIL_VERIFIED_AT,PASSWORD,REMEMBER_TOKEN,ACTIVE,CREATED_AT,UPDATED_AT,DELETED_AT) values (2,null,'Customer','Relations',null,'custrelations@sampath.lk',null,null,null,'$2y$10$R/6wJucRY.BQnNsjQlWGfu6pmxH7heCbFdX3X7Irj03mpYOECs9TO',null,'1',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into USERS (USER_ID_PK,OBJECTGUID,FIRST_NAME,LAST_NAME,EMP_ID,EMAIL,OFFICE_EMAIL,USERNAME,EMAIL_VERIFIED_AT,PASSWORD,REMEMBER_TOKEN,ACTIVE,CREATED_AT,UPDATED_AT,DELETED_AT) values (3,null,'Hasitha','Bandara','61719','custserv11@sb.sampath.lk',null,null,null,'$2y$10$8juNVV4hew5QGeSZpbasMurk/2relVffPukKzLFecd2RtB4C4BklC',null,'1',to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.25.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into USERS (USER_ID_PK,OBJECTGUID,FIRST_NAME,LAST_NAME,EMP_ID,EMAIL,OFFICE_EMAIL,USERNAME,EMAIL_VERIFIED_AT,PASSWORD,REMEMBER_TOKEN,ACTIVE,CREATED_AT,UPDATED_AT,DELETED_AT) values (4,null,'Vakini','Visakan','50067','custserv4@sb.sampath.lk',null,null,null,'$2y$10$cBUDD/ZTqkAK7XTsZ8kzzunC6QOBNj0/J4HSiKM2ffF18CVkdQbh6',null,'1',to_timestamp('12-JUN-20 04.25.26.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.26.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into USERS (USER_ID_PK,OBJECTGUID,FIRST_NAME,LAST_NAME,EMP_ID,EMAIL,OFFICE_EMAIL,USERNAME,EMAIL_VERIFIED_AT,PASSWORD,REMEMBER_TOKEN,ACTIVE,CREATED_AT,UPDATED_AT,DELETED_AT) values (5,null,'Dilakshi','Perera','49328','custserv13@sb.sampath.lk',null,null,null,'$2y$10$7ik.hV8VZ1nddt3L3trjUeirDhyA9inyw5dLM.yJ2KVABSnBxXpNy',null,'1',to_timestamp('12-JUN-20 04.25.26.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.26.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into USERS (USER_ID_PK,OBJECTGUID,FIRST_NAME,LAST_NAME,EMP_ID,EMAIL,OFFICE_EMAIL,USERNAME,EMAIL_VERIFIED_AT,PASSWORD,REMEMBER_TOKEN,ACTIVE,CREATED_AT,UPDATED_AT,DELETED_AT) values (6,null,'Mahendra','Kamal','72370','pcu01@sb.sampath.lk',null,null,null,'$2y$10$.qwK53cSi71kaPB8TIEAo.sQqZ8Q.HPEVqSGayMOL9N1N1RQwnsYi',null,'1',to_timestamp('12-JUN-20 04.25.26.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.26.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into USERS (USER_ID_PK,OBJECTGUID,FIRST_NAME,LAST_NAME,EMP_ID,EMAIL,OFFICE_EMAIL,USERNAME,EMAIL_VERIFIED_AT,PASSWORD,REMEMBER_TOKEN,ACTIVE,CREATED_AT,UPDATED_AT,DELETED_AT) values (7,null,'Piyumika','Bandara','70971','pcu@sampath.lk',null,null,null,'$2y$10$PNsmcVzCnCd2vvO3DXpE9ezKQvC1bFpb/xDnr6TU9ulGRnMNK5Smu',null,'1',to_timestamp('12-JUN-20 04.25.26.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.26.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into USERS (USER_ID_PK,OBJECTGUID,FIRST_NAME,LAST_NAME,EMP_ID,EMAIL,OFFICE_EMAIL,USERNAME,EMAIL_VERIFIED_AT,PASSWORD,REMEMBER_TOKEN,ACTIVE,CREATED_AT,UPDATED_AT,DELETED_AT) values (8,null,'Pramanathan','Pathmaruban','63282','premiumcards@sampath.lk',null,null,null,'$2y$10$ElJXQeM.D5dr2F8HI9bsGuu/sk.fhbZhboT/Vp2dn9BiABgGWN/zW',null,'1',to_timestamp('12-JUN-20 04.25.26.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.26.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into USERS (USER_ID_PK,OBJECTGUID,FIRST_NAME,LAST_NAME,EMP_ID,EMAIL,OFFICE_EMAIL,USERNAME,EMAIL_VERIFIED_AT,PASSWORD,REMEMBER_TOKEN,ACTIVE,CREATED_AT,UPDATED_AT,DELETED_AT) values (9,null,'Manager','Zone 1','00009','zone1@sampath.lk',null,null,null,'$2y$10$I7tVlPZfS7vfT91zUeSg4eWzmJ7WtrLwC0OmMcSr3YT72VTcjFsE6',null,'1',to_timestamp('12-JUN-20 04.25.26.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.26.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into USERS (USER_ID_PK,OBJECTGUID,FIRST_NAME,LAST_NAME,EMP_ID,EMAIL,OFFICE_EMAIL,USERNAME,EMAIL_VERIFIED_AT,PASSWORD,REMEMBER_TOKEN,ACTIVE,CREATED_AT,UPDATED_AT,DELETED_AT) values (10,null,'Manager','Zone 2','00010','zone2@sampath.lk',null,null,null,'$2y$10$UlKycUvpBqJu0KCzpsnBduYtusIUMaVdt0VCgKa/vjGmqe.cdVeaq',null,'1',to_timestamp('12-JUN-20 04.25.26.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.26.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into USERS (USER_ID_PK,OBJECTGUID,FIRST_NAME,LAST_NAME,EMP_ID,EMAIL,OFFICE_EMAIL,USERNAME,EMAIL_VERIFIED_AT,PASSWORD,REMEMBER_TOKEN,ACTIVE,CREATED_AT,UPDATED_AT,DELETED_AT) values (11,null,'Manager','Region 1','00011','region1@sampath.lk',null,null,null,'$2y$10$KRM/.6o8txFX9uB7Ba0SEuV7NV5LZlKhr9aGNt/hA4o5D0CJ.iMim',null,'1',to_timestamp('12-JUN-20 04.25.26.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.26.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into USERS (USER_ID_PK,OBJECTGUID,FIRST_NAME,LAST_NAME,EMP_ID,EMAIL,OFFICE_EMAIL,USERNAME,EMAIL_VERIFIED_AT,PASSWORD,REMEMBER_TOKEN,ACTIVE,CREATED_AT,UPDATED_AT,DELETED_AT) values (12,null,'Manager','Region 2','00012','region2@sampath.lk',null,null,null,'$2y$10$S9NJXfmFgkA2.yEsIUKlkuITjZjnlFSlcTNTynHigiYVnLxybTf/S',null,'1',to_timestamp('12-JUN-20 04.25.26.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.26.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+Insert into USERS (USER_ID_PK,OBJECTGUID,FIRST_NAME,LAST_NAME,EMP_ID,EMAIL,OFFICE_EMAIL,USERNAME,EMAIL_VERIFIED_AT,PASSWORD,REMEMBER_TOKEN,ACTIVE,CREATED_AT,UPDATED_AT,DELETED_AT) values (13,null,'Manager','Region 3','00013','region3@sampath.lk',null,null,null,'$2y$10$vaibRZr0r8.77N4Ehc.lW.4ZkRFCPkZXCJO5P4xu6IkY52cGUdd8.',null,'1',to_timestamp('12-JUN-20 04.25.27.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('12-JUN-20 04.25.27.000000000 PM','DD-MON-RR HH.MI.SSXFF AM'),null);
+REM INSERTING into ZONES
+SET DEFINE OFF;
+--------------------------------------------------------
+--  DDL for Index ACTIVITY_LOG_ID_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "ACTIVITY_LOG_ID_PK" ON "ACTIVITY_LOG" ("ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index ACTIVITY_LOG_LOG_NAME_INDEX
+--------------------------------------------------------
+
+  CREATE INDEX "ACTIVITY_LOG_LOG_NAME_INDEX" ON "ACTIVITY_LOG" ("LOG_NAME") 
+  ;
+--------------------------------------------------------
+--  DDL for Index ANALYSES_ANALYSIS_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "ANALYSES_ANALYSIS_ID_PK_PK" ON "ANALYSES" ("ANALYSIS_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index ANAL_CATEGO_ANAL_CATE_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "ANAL_CATEGO_ANAL_CATE_ID_PK_PK" ON "ANALYSIS_CATEGORIES" ("ANALYSIS_CATEGORY_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index AREAS_AREA_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "AREAS_AREA_ID_PK_PK" ON "AREAS" ("AREA_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index BR_DEPARTM_BR_DEPART_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "BR_DEPARTM_BR_DEPART_ID_PK_PK" ON "BRANCH_DEPARTMENTS" ("BRANCH_DEPARTMENT_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index BR_DEPA_US_BR_DEPA_US_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "BR_DEPA_US_BR_DEPA_US_ID_PK_PK" ON "BRANCH_DEPARTMENT_USERS" ("BRANCH_DEPARTMENT_USER_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index CATEGORIES_CATEGORY_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "CATEGORIES_CATEGORY_ID_PK_PK" ON "CATEGORIES" ("CATEGORY_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index COMPLAINAN_COMPLAINA_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "COMPLAINAN_COMPLAINA_ID_PK_PK" ON "COMPLAINANTS" ("COMPLAINANT_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index COMPLAINTS_COMPLAINT_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "COMPLAINTS_COMPLAINT_ID_PK_PK" ON "COMPLAINTS" ("COMPLAINT_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index COMPLA_CLO_COMPLA_CL_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "COMPLA_CLO_COMPLA_CL_ID_PK_PK" ON "COMPLAINT_CLOSES" ("COMPLAINT_CLOSE_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index COMPLA_MO_COMPLA_MO_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "COMPLA_MO_COMPLA_MO_ID_PK_PK" ON "COMPLAINT_MODES" ("COMPLAINT_MODE_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index COMPLA_US_COMPLA_US_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "COMPLA_US_COMPLA_US_ID_PK_PK" ON "COMPLAINT_USERS" ("COMPLAINT_USER_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index COMPL_REO_COMPL_RE_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "COMPL_REO_COMPL_RE_ID_PK_PK" ON "COMPLAINT_REOPENS" ("COMPLAINT_REOPEN_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index COMP_REMI_COMP_REM_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "COMP_REMI_COMP_REM_ID_PK_PK" ON "COMPLAINT_REMINDERS" ("COMPLAINT_REMINDER_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index COMP_SOLU_COMP_SOL_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "COMP_SOLU_COMP_SOL_ID_PK_PK" ON "COMPLAINT_SOLUTIONS" ("COMPLAINT_SOLUTION_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index COM_ATTAC_COM_ATTA_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "COM_ATTAC_COM_ATTA_ID_PK_PK" ON "COMPLAINT_ATTACHMENTS" ("COMPLAINT_ATTACHMENT_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index COM_ESCAL_COM_ESCA_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "COM_ESCAL_COM_ESCA_ID_PK_PK" ON "COMPLAINT_ESCALATIONS" ("COMPLAINT_ESCALATION_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index FAILED_JOBS_ID_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "FAILED_JOBS_ID_PK" ON "FAILED_JOBS" ("ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index JOBS_ID_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "JOBS_ID_PK" ON "JOBS" ("ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index JOBS_QUEUE_INDEX
+--------------------------------------------------------
+
+  CREATE INDEX "JOBS_QUEUE_INDEX" ON "JOBS" ("QUEUE") 
+  ;
+--------------------------------------------------------
+--  DDL for Index MIGRATIONS_ID_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "MIGRATIONS_ID_PK" ON "MIGRATIONS" ("ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index MOD_HA_ROL_MOD_ID_MOD_TY_IND
+--------------------------------------------------------
+
+  CREATE INDEX "MOD_HA_ROL_MOD_ID_MOD_TY_IND" ON "MODEL_HAS_ROLES" ("MODEL_ID", "MODEL_TYPE") 
+  ;
+--------------------------------------------------------
+--  DDL for Index MO_HA_PERMISSI_MO_ID_MO_TY_IN
+--------------------------------------------------------
+
+  CREATE INDEX "MO_HA_PERMISSI_MO_ID_MO_TY_IN" ON "MODEL_HAS_PERMISSIONS" ("MODEL_ID", "MODEL_TYPE") 
+  ;
+--------------------------------------------------------
+--  DDL for Index M_H_PERMIS_PERMIS_M_T_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "M_H_PERMIS_PERMIS_M_T_PK" ON "MODEL_HAS_PERMISSIONS" ("PERMISSION_ID", "MODEL_ID", "MODEL_TYPE") 
+  ;
+--------------------------------------------------------
+--  DDL for Index M_H_ROLES_ROLE_M_T_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "M_H_ROLES_ROLE_M_T_PK" ON "MODEL_HAS_ROLES" ("ROLE_ID", "MODEL_ID", "MODEL_TYPE") 
+  ;
+--------------------------------------------------------
+--  DDL for Index NOTIFICATIONS_ID_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "NOTIFICATIONS_ID_PK" ON "NOTIFICATIONS" ("ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index NOTIFICA_NOTIF_TY_NOTIF_ID_IN
+--------------------------------------------------------
+
+  CREATE INDEX "NOTIFICA_NOTIF_TY_NOTIF_ID_IN" ON "NOTIFICATIONS" ("NOTIFIABLE_TYPE", "NOTIFIABLE_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index PASSWORD_RESETS_EMAIL_INDEX
+--------------------------------------------------------
+
+  CREATE INDEX "PASSWORD_RESETS_EMAIL_INDEX" ON "PASSWORD_RESETS" ("EMAIL") 
+  ;
+--------------------------------------------------------
+--  DDL for Index PERMISSIONS_ID_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PERMISSIONS_ID_PK" ON "PERMISSIONS" ("ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index PUSH_SUBSCRIPTIONS_ENDPOINT_UK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PUSH_SUBSCRIPTIONS_ENDPOINT_UK" ON "PUSH_SUBSCRIPTIONS" ("ENDPOINT") 
+  ;
+--------------------------------------------------------
+--  DDL for Index PUSH_SUBSCRIPTIONS_ID_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PUSH_SUBSCRIPTIONS_ID_PK" ON "PUSH_SUBSCRIPTIONS" ("ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index PU_SUBSCR_SUBSC_TY_SUBSC_ID_IN
+--------------------------------------------------------
+
+  CREATE INDEX "PU_SUBSCR_SUBSC_TY_SUBSC_ID_IN" ON "PUSH_SUBSCRIPTIONS" ("SUBSCRIBABLE_TYPE", "SUBSCRIBABLE_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index REGIONS_REGION_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "REGIONS_REGION_ID_PK_PK" ON "REGIONS" ("REGION_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index ROLES_ID_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "ROLES_ID_PK" ON "ROLES" ("ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index RO_HA_PERMIS_PERMI_ID_RO_ID_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "RO_HA_PERMIS_PERMI_ID_RO_ID_PK" ON "ROLE_HAS_PERMISSIONS" ("PERMISSION_ID", "ROLE_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SETTINGS_SETTING_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "SETTINGS_SETTING_ID_PK_PK" ON "SETTINGS" ("SETTING_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SOL_AMEND_SOL_AMEN_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "SOL_AMEND_SOL_AMEN_ID_PK_PK" ON "SOLUTION_AMENDMENTS" ("SOLUTION_AMENDMENT_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SU_CATEGORI_SU_CATEGO_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "SU_CATEGORI_SU_CATEGO_ID_PK_PK" ON "SUB_CATEGORIES" ("SUB_CATEGORY_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYSTE_ROLE_SYSTE_ROL_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "SYSTE_ROLE_SYSTE_ROL_ID_PK_PK" ON "SYSTEM_ROLES" ("SYSTEM_ROLE_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index USERS_EMAIL_UK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "USERS_EMAIL_UK" ON "USERS" ("EMAIL") 
+  ;
+--------------------------------------------------------
+--  DDL for Index USERS_EMP_ID_UK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "USERS_EMP_ID_UK" ON "USERS" ("EMP_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index USERS_USER_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "USERS_USER_ID_PK_PK" ON "USERS" ("USER_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Index ZONES_ZONE_ID_PK_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "ZONES_ZONE_ID_PK_PK" ON "ZONES" ("ZONE_ID_PK") 
+  ;
+--------------------------------------------------------
+--  DDL for Trigger ACTIVITY_LOG_ID_TRG
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "ACTIVITY_LOG_ID_TRG" 
+            before insert on ACTIVITY_LOG
+            for each row
+                begin
+            if :new.ID is null then
+                select activity_log_id_seq.nextval into :new.ID from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "ACTIVITY_LOG_ID_TRG" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger ANALYSES_ANALYSIS_ID_PK_TRG
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "ANALYSES_ANALYSIS_ID_PK_TRG" 
+            before insert on ANALYSES
+            for each row
+                begin
+            if :new.ANALYSIS_ID_PK is null then
+                select analyses_analysis_id_pk_seq.nextval into :new.ANALYSIS_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "ANALYSES_ANALYSIS_ID_PK_TRG" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger ANALYSIS_CATEGORIES_ANALYSIS_C
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "ANALYSIS_CATEGORIES_ANALYSIS_C" 
+            before insert on ANALYSIS_CATEGORIES
+            for each row
+                begin
+            if :new.ANALYSIS_CATEGORY_ID_PK is null then
+                select analysis_categories_analysis_c.nextval into :new.ANALYSIS_CATEGORY_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "ANALYSIS_CATEGORIES_ANALYSIS_C" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger AREAS_AREA_ID_PK_TRG
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "AREAS_AREA_ID_PK_TRG" 
+            before insert on AREAS
+            for each row
+                begin
+            if :new.AREA_ID_PK is null then
+                select areas_area_id_pk_seq.nextval into :new.AREA_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "AREAS_AREA_ID_PK_TRG" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger BRANCH_DEPARTMENTS_BRANCH_DEPA
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "BRANCH_DEPARTMENTS_BRANCH_DEPA" 
+            before insert on BRANCH_DEPARTMENTS
+            for each row
+                begin
+            if :new.BRANCH_DEPARTMENT_ID_PK is null then
+                select branch_departments_branch_depa.nextval into :new.BRANCH_DEPARTMENT_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "BRANCH_DEPARTMENTS_BRANCH_DEPA" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger BRANCH_DEPARTMENT_USERS_BRANCH
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "BRANCH_DEPARTMENT_USERS_BRANCH" 
+            before insert on BRANCH_DEPARTMENT_USERS
+            for each row
+                begin
+            if :new.BRANCH_DEPARTMENT_USER_ID_PK is null then
+                select branch_department_users_branch.nextval into :new.BRANCH_DEPARTMENT_USER_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "BRANCH_DEPARTMENT_USERS_BRANCH" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger CATEGORIES_CATEGORY_ID_PK_TRG
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "CATEGORIES_CATEGORY_ID_PK_TRG" 
+            before insert on CATEGORIES
+            for each row
+                begin
+            if :new.CATEGORY_ID_PK is null then
+                select categories_category_id_pk_seq.nextval into :new.CATEGORY_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "CATEGORIES_CATEGORY_ID_PK_TRG" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger COMPLAINANTS_COMPLAINANT_ID_PK
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "COMPLAINANTS_COMPLAINANT_ID_PK" 
+            before insert on COMPLAINANTS
+            for each row
+                begin
+            if :new.COMPLAINANT_ID_PK is null then
+                select complainants_complainant_id_pk.nextval into :new.COMPLAINANT_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "COMPLAINANTS_COMPLAINANT_ID_PK" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger COMPLAINTS_COMPLAINT_ID_PK_TRG
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "COMPLAINTS_COMPLAINT_ID_PK_TRG" 
+            before insert on COMPLAINTS
+            for each row
+                begin
+            if :new.COMPLAINT_ID_PK is null then
+                select complaints_complaint_id_pk_seq.nextval into :new.COMPLAINT_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "COMPLAINTS_COMPLAINT_ID_PK_TRG" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger COMPLAINT_ATTACHMENTS_COMPLAIN
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "COMPLAINT_ATTACHMENTS_COMPLAIN" 
+            before insert on COMPLAINT_ATTACHMENTS
+            for each row
+                begin
+            if :new.COMPLAINT_ATTACHMENT_ID_PK is null then
+                select complaint_attachments_complain.nextval into :new.COMPLAINT_ATTACHMENT_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "COMPLAINT_ATTACHMENTS_COMPLAIN" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger COMPLAINT_CLOSES_COMPLAINT_CLO
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "COMPLAINT_CLOSES_COMPLAINT_CLO" 
+            before insert on COMPLAINT_CLOSES
+            for each row
+                begin
+            if :new.COMPLAINT_CLOSE_ID_PK is null then
+                select complaint_closes_complaint_clo.nextval into :new.COMPLAINT_CLOSE_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "COMPLAINT_CLOSES_COMPLAINT_CLO" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger COMPLAINT_ESCALATIONS_COMPLAIN
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "COMPLAINT_ESCALATIONS_COMPLAIN" 
+            before insert on COMPLAINT_ESCALATIONS
+            for each row
+                begin
+            if :new.COMPLAINT_ESCALATION_ID_PK is null then
+                select complaint_escalations_complain.nextval into :new.COMPLAINT_ESCALATION_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "COMPLAINT_ESCALATIONS_COMPLAIN" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger COMPLAINT_MODES_COMPLAINT_MODE
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "COMPLAINT_MODES_COMPLAINT_MODE" 
+            before insert on COMPLAINT_MODES
+            for each row
+                begin
+            if :new.COMPLAINT_MODE_ID_PK is null then
+                select complaint_modes_complaint_mode.nextval into :new.COMPLAINT_MODE_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "COMPLAINT_MODES_COMPLAINT_MODE" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger COMPLAINT_REMINDERS_COMPLAINT_
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "COMPLAINT_REMINDERS_COMPLAINT_" 
+            before insert on COMPLAINT_REMINDERS
+            for each row
+                begin
+            if :new.COMPLAINT_REMINDER_ID_PK is null then
+                select complaint_reminders_complaint_.nextval into :new.COMPLAINT_REMINDER_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "COMPLAINT_REMINDERS_COMPLAINT_" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger COMPLAINT_REOPENS_COMPLAINT_RE
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "COMPLAINT_REOPENS_COMPLAINT_RE" 
+            before insert on COMPLAINT_REOPENS
+            for each row
+                begin
+            if :new.COMPLAINT_REOPEN_ID_PK is null then
+                select complaint_reopens_complaint_re.nextval into :new.COMPLAINT_REOPEN_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "COMPLAINT_REOPENS_COMPLAINT_RE" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger COMPLAINT_SOLUTIONS_COMPLAINT_
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "COMPLAINT_SOLUTIONS_COMPLAINT_" 
+            before insert on COMPLAINT_SOLUTIONS
+            for each row
+                begin
+            if :new.COMPLAINT_SOLUTION_ID_PK is null then
+                select complaint_solutions_complaint_.nextval into :new.COMPLAINT_SOLUTION_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "COMPLAINT_SOLUTIONS_COMPLAINT_" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger COMPLAINT_USERS_COMPLAINT_USER
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "COMPLAINT_USERS_COMPLAINT_USER" 
+            before insert on COMPLAINT_USERS
+            for each row
+                begin
+            if :new.COMPLAINT_USER_ID_PK is null then
+                select complaint_users_complaint_user.nextval into :new.COMPLAINT_USER_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "COMPLAINT_USERS_COMPLAINT_USER" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger FAILED_JOBS_ID_TRG
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "FAILED_JOBS_ID_TRG" 
+            before insert on FAILED_JOBS
+            for each row
+                begin
+            if :new.ID is null then
+                select failed_jobs_id_seq.nextval into :new.ID from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "FAILED_JOBS_ID_TRG" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger JOBS_ID_TRG
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "JOBS_ID_TRG" 
+            before insert on JOBS
+            for each row
+                begin
+            if :new.ID is null then
+                select jobs_id_seq.nextval into :new.ID from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "JOBS_ID_TRG" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger MIGRATIONS_ID_TRG
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "MIGRATIONS_ID_TRG" 
+            before insert on MIGRATIONS
+            for each row
+                begin
+            if :new.ID is null then
+                select migrations_id_seq.nextval into :new.ID from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "MIGRATIONS_ID_TRG" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger PERMISSIONS_ID_TRG
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "PERMISSIONS_ID_TRG" 
+            before insert on PERMISSIONS
+            for each row
+                begin
+            if :new.ID is null then
+                select permissions_id_seq.nextval into :new.ID from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "PERMISSIONS_ID_TRG" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger PUSH_SUBSCRIPTIONS_ID_TRG
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "PUSH_SUBSCRIPTIONS_ID_TRG" 
+            before insert on PUSH_SUBSCRIPTIONS
+            for each row
+                begin
+            if :new.ID is null then
+                select push_subscriptions_id_seq.nextval into :new.ID from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "PUSH_SUBSCRIPTIONS_ID_TRG" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger REGIONS_REGION_ID_PK_TRG
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "REGIONS_REGION_ID_PK_TRG" 
+            before insert on REGIONS
+            for each row
+                begin
+            if :new.REGION_ID_PK is null then
+                select regions_region_id_pk_seq.nextval into :new.REGION_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "REGIONS_REGION_ID_PK_TRG" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger ROLES_ID_TRG
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "ROLES_ID_TRG" 
+            before insert on ROLES
+            for each row
+                begin
+            if :new.ID is null then
+                select roles_id_seq.nextval into :new.ID from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "ROLES_ID_TRG" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger SETTINGS_SETTING_ID_PK_TRG
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "SETTINGS_SETTING_ID_PK_TRG" 
+            before insert on SETTINGS
+            for each row
+                begin
+            if :new.SETTING_ID_PK is null then
+                select settings_setting_id_pk_seq.nextval into :new.SETTING_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "SETTINGS_SETTING_ID_PK_TRG" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger SOLUTION_AMENDMENTS_SOLUTION_A
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "SOLUTION_AMENDMENTS_SOLUTION_A" 
+            before insert on SOLUTION_AMENDMENTS
+            for each row
+                begin
+            if :new.SOLUTION_AMENDMENT_ID_PK is null then
+                select solution_amendments_solution_a.nextval into :new.SOLUTION_AMENDMENT_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "SOLUTION_AMENDMENTS_SOLUTION_A" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger SUB_CATEGORIES_SUB_CATEGORY_ID
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "SUB_CATEGORIES_SUB_CATEGORY_ID" 
+            before insert on SUB_CATEGORIES
+            for each row
+                begin
+            if :new.SUB_CATEGORY_ID_PK is null then
+                select sub_categories_sub_category_id.nextval into :new.SUB_CATEGORY_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "SUB_CATEGORIES_SUB_CATEGORY_ID" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger SYSTEM_ROLES_SYSTEM_ROLE_ID_PK
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "SYSTEM_ROLES_SYSTEM_ROLE_ID_PK" 
+            before insert on SYSTEM_ROLES
+            for each row
+                begin
+            if :new.SYSTEM_ROLE_ID_PK is null then
+                select system_roles_system_role_id_pk.nextval into :new.SYSTEM_ROLE_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "SYSTEM_ROLES_SYSTEM_ROLE_ID_PK" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger USERS_USER_ID_PK_TRG
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "USERS_USER_ID_PK_TRG" 
+            before insert on USERS
+            for each row
+                begin
+            if :new.USER_ID_PK is null then
+                select users_user_id_pk_seq.nextval into :new.USER_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "USERS_USER_ID_PK_TRG" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger ZONES_ZONE_ID_PK_TRG
+--------------------------------------------------------
+
+  CREATE OR REPLACE  TRIGGER "ZONES_ZONE_ID_PK_TRG" 
+            before insert on ZONES
+            for each row
+                begin
+            if :new.ZONE_ID_PK is null then
+                select zones_zone_id_pk_seq.nextval into :new.ZONE_ID_PK from dual;
+            end if;
+            end;
+/
+ALTER TRIGGER "ZONES_ZONE_ID_PK_TRG" ENABLE;
+--------------------------------------------------------
+--  Constraints for Table ACTIVITY_LOG
+--------------------------------------------------------
+
+  ALTER TABLE "ACTIVITY_LOG" ADD CONSTRAINT "ACTIVITY_LOG_ID_PK" PRIMARY KEY ("ID")
+  USING INDEX  ENABLE;
+  ALTER TABLE "ACTIVITY_LOG" MODIFY ("DESCRIPTION" NOT NULL ENABLE);
+  ALTER TABLE "ACTIVITY_LOG" MODIFY ("ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table ANALYSES
+--------------------------------------------------------
+
+  ALTER TABLE "ANALYSES" ADD CONSTRAINT "ANALYSES_ANALYSIS_ID_PK_PK" PRIMARY KEY ("ANALYSIS_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "ANALYSES" ADD CONSTRAINT "ANALYSES_STATUS_CK" CHECK (status in ('PEN', 'ACT', 'INACT', 'REJ')) ENABLE;
+  ALTER TABLE "ANALYSES" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "ANALYSES" MODIFY ("ANALYSIS_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table ANALYSIS_CATEGORIES
+--------------------------------------------------------
+
+  ALTER TABLE "ANALYSIS_CATEGORIES" ADD CONSTRAINT "ANAL_CATEGO_ANAL_CATE_ID_PK_PK" PRIMARY KEY ("ANALYSIS_CATEGORY_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "ANALYSIS_CATEGORIES" ADD CONSTRAINT "ANALYSIS_CATEGORIES_STATUS_CK" CHECK (status in ('PEN', 'ACT', 'INACT', 'REJ')) ENABLE;
+  ALTER TABLE "ANALYSIS_CATEGORIES" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "ANALYSIS_CATEGORIES" MODIFY ("ANALYSIS_CATEGORY_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table AREAS
+--------------------------------------------------------
+
+  ALTER TABLE "AREAS" ADD CONSTRAINT "AREAS_AREA_ID_PK_PK" PRIMARY KEY ("AREA_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "AREAS" ADD CONSTRAINT "AREAS_STATUS_CK" CHECK (status in ('PEN', 'ACT', 'INACT', 'REJ')) ENABLE;
+  ALTER TABLE "AREAS" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "AREAS" MODIFY ("AREA_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table BRANCH_DEPARTMENTS
+--------------------------------------------------------
+
+  ALTER TABLE "BRANCH_DEPARTMENTS" ADD CONSTRAINT "BR_DEPARTM_BR_DEPART_ID_PK_PK" PRIMARY KEY ("BRANCH_DEPARTMENT_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "BRANCH_DEPARTMENTS" ADD CONSTRAINT "BRANCH_DEPARTMENTS_STATUS_CK" CHECK (status in ('ACT', 'INACT')) ENABLE;
+  ALTER TABLE "BRANCH_DEPARTMENTS" ADD CONSTRAINT "BRANCH_DEPARTMENTS_TYPE_CK" CHECK (type in ('BRN', 'DEPT', 'SDEPT', 'HDEPT')) ENABLE;
+  ALTER TABLE "BRANCH_DEPARTMENTS" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "BRANCH_DEPARTMENTS" MODIFY ("TYPE" NOT NULL ENABLE);
+  ALTER TABLE "BRANCH_DEPARTMENTS" MODIFY ("BRANCH_DEPARTMENT_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table BRANCH_DEPARTMENT_USERS
+--------------------------------------------------------
+
+  ALTER TABLE "BRANCH_DEPARTMENT_USERS" ADD CONSTRAINT "BR_DEPA_US_BR_DEPA_US_ID_PK_PK" PRIMARY KEY ("BRANCH_DEPARTMENT_USER_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "BRANCH_DEPARTMENT_USERS" ADD CONSTRAINT "BRANCH_DEPART_USERS_STATUS_CK" CHECK (status in ('ACT', 'INACT')) ENABLE;
+  ALTER TABLE "BRANCH_DEPARTMENT_USERS" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "BRANCH_DEPARTMENT_USERS" MODIFY ("BRANCH_DEPARTMENT_USER_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table CATEGORIES
+--------------------------------------------------------
+
+  ALTER TABLE "CATEGORIES" ADD CONSTRAINT "CATEGORIES_CATEGORY_ID_PK_PK" PRIMARY KEY ("CATEGORY_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "CATEGORIES" ADD CONSTRAINT "CATEGORIES_STATUS_CK" CHECK (status in ('PEN', 'ACT', 'INACT', 'REJ')) ENABLE;
+  ALTER TABLE "CATEGORIES" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "CATEGORIES" MODIFY ("CATEGORY_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table COMPLAINANTS
+--------------------------------------------------------
+
+  ALTER TABLE "COMPLAINANTS" ADD CONSTRAINT "COMPLAINAN_COMPLAINA_ID_PK_PK" PRIMARY KEY ("COMPLAINANT_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "COMPLAINANTS" ADD CONSTRAINT "COMPLAINANTS_STATUS_CK" CHECK (status in ('ACT', 'INACT')) ENABLE;
+  ALTER TABLE "COMPLAINANTS" ADD CONSTRAINT "COMPLAINANTS_TITLE_CK" CHECK (title in ('Mr', 'Mrs', 'Ms', 'Mstr', 'Miss', 'Prof', 'Dr', 'Rev')) ENABLE;
+  ALTER TABLE "COMPLAINANTS" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "COMPLAINANTS" MODIFY ("COMPLAINANT_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table COMPLAINTS
+--------------------------------------------------------
+
+  ALTER TABLE "COMPLAINTS" ADD CONSTRAINT "COMPLAINTS_COMPLAINT_ID_PK_PK" PRIMARY KEY ("COMPLAINT_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "COMPLAINTS" ADD CONSTRAINT "COMPLAINTS_STATUS_CK" CHECK (status in ('PEN', 'INP', 'ESC', 'REP', 'COM', 'CLO', 'REJ')) ENABLE;
+  ALTER TABLE "COMPLAINTS" ADD CONSTRAINT "COMPLAINTS_TYPE_CK" CHECK (type in ('CMPLA', 'CMPLI')) ENABLE;
+  ALTER TABLE "COMPLAINTS" ADD CONSTRAINT "COMPLAINTS_PRIORITY_LEVEL_CK" CHECK (priority_level in ('CRT', 'IMP', 'NOR', 'LOW')) ENABLE;
+  ALTER TABLE "COMPLAINTS" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "COMPLAINTS" MODIFY ("TYPE" NOT NULL ENABLE);
+  ALTER TABLE "COMPLAINTS" MODIFY ("PRIORITY_LEVEL" NOT NULL ENABLE);
+  ALTER TABLE "COMPLAINTS" MODIFY ("COMPLAINT_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table COMPLAINT_ATTACHMENTS
+--------------------------------------------------------
+
+  ALTER TABLE "COMPLAINT_ATTACHMENTS" ADD CONSTRAINT "COM_ATTAC_COM_ATTA_ID_PK_PK" PRIMARY KEY ("COMPLAINT_ATTACHMENT_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "COMPLAINT_ATTACHMENTS" ADD CONSTRAINT "COMPLAINT_ATTA_STATUS_CK" CHECK (status in ('EXST', 'NEXST')) ENABLE;
+  ALTER TABLE "COMPLAINT_ATTACHMENTS" ADD CONSTRAINT "COMPLAINT_AT_ATTACH_TYPE_CK" CHECK (attach_type in ('EML', 'PDF','PNG','JPEG')) ENABLE;
+  ALTER TABLE "COMPLAINT_ATTACHMENTS" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "COMPLAINT_ATTACHMENTS" MODIFY ("COMPLAINT_ATTACHMENT_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table COMPLAINT_CLOSES
+--------------------------------------------------------
+
+  ALTER TABLE "COMPLAINT_CLOSES" ADD CONSTRAINT "COMPLA_CLO_COMPLA_CL_ID_PK_PK" PRIMARY KEY ("COMPLAINT_CLOSE_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "COMPLAINT_CLOSES" ADD CONSTRAINT "COMPLAINT_CLOSES_STATUS_CK" CHECK (status in ('INP', 'REJ')) ENABLE;
+  ALTER TABLE "COMPLAINT_CLOSES" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "COMPLAINT_CLOSES" MODIFY ("COMPLAINT_CLOSE_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table COMPLAINT_ESCALATIONS
+--------------------------------------------------------
+
+  ALTER TABLE "COMPLAINT_ESCALATIONS" ADD CONSTRAINT "COM_ESCAL_COM_ESCA_ID_PK_PK" PRIMARY KEY ("COMPLAINT_ESCALATION_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "COMPLAINT_ESCALATIONS" ADD CONSTRAINT "COMPLAINT_ESCAL_STATUS_CK" CHECK (status in ('INP', 'PAS', 'COM', 'REJ')) ENABLE;
+  ALTER TABLE "COMPLAINT_ESCALATIONS" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "COMPLAINT_ESCALATIONS" MODIFY ("COMPLAINT_ESCALATION_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table COMPLAINT_MODES
+--------------------------------------------------------
+
+  ALTER TABLE "COMPLAINT_MODES" ADD CONSTRAINT "COMPLA_MO_COMPLA_MO_ID_PK_PK" PRIMARY KEY ("COMPLAINT_MODE_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "COMPLAINT_MODES" ADD CONSTRAINT "COMPLAINT_MODES_STATUS_CK" CHECK (status in ('ACT', 'INACT')) ENABLE;
+  ALTER TABLE "COMPLAINT_MODES" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "COMPLAINT_MODES" MODIFY ("COMPLAINT_MODE_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table COMPLAINT_REMINDERS
+--------------------------------------------------------
+
+  ALTER TABLE "COMPLAINT_REMINDERS" ADD CONSTRAINT "COMP_REMI_COMP_REM_ID_PK_PK" PRIMARY KEY ("COMPLAINT_REMINDER_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "COMPLAINT_REMINDERS" ADD CONSTRAINT "COMPLAINT_REMINDERS_STATUS_CK" CHECK (status in ('INP', 'COM')) ENABLE;
+  ALTER TABLE "COMPLAINT_REMINDERS" ADD CONSTRAINT "COMPLAINT_REMINDERS_R_MODE_CK" CHECK (reminder_mode in ('EMAIL', 'SMS', 'CALL')) ENABLE;
+  ALTER TABLE "COMPLAINT_REMINDERS" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "COMPLAINT_REMINDERS" MODIFY ("REMINDER_MODE" NOT NULL ENABLE);
+  ALTER TABLE "COMPLAINT_REMINDERS" MODIFY ("COMPLAINT_REMINDER_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table COMPLAINT_REOPENS
+--------------------------------------------------------
+
+  ALTER TABLE "COMPLAINT_REOPENS" ADD CONSTRAINT "COMPL_REO_COMPL_RE_ID_PK_PK" PRIMARY KEY ("COMPLAINT_REOPEN_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "COMPLAINT_REOPENS" ADD CONSTRAINT "COMPLAINT_REOPENS_STATUS_CK" CHECK (status in ('INP', 'COM')) ENABLE;
+  ALTER TABLE "COMPLAINT_REOPENS" ADD CONSTRAINT "COMPLAINT_REOPENS_TYPE_CK" CHECK (type in ('COM', 'CLO')) ENABLE;
+  ALTER TABLE "COMPLAINT_REOPENS" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "COMPLAINT_REOPENS" MODIFY ("COMPLAINT_REOPEN_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table COMPLAINT_SOLUTIONS
+--------------------------------------------------------
+
+  ALTER TABLE "COMPLAINT_SOLUTIONS" ADD CONSTRAINT "COMP_SOLU_COMP_SOL_ID_PK_PK" PRIMARY KEY ("COMPLAINT_SOLUTION_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "COMPLAINT_SOLUTIONS" ADD CONSTRAINT "COMPLAINT_SOLUTIONS_STATUS_CK" CHECK (status in ('PEN', 'ACP', 'NACP', 'VFD', 'DEL')) ENABLE;
+  ALTER TABLE "COMPLAINT_SOLUTIONS" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "COMPLAINT_SOLUTIONS" MODIFY ("COMPLAINT_SOLUTION_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table COMPLAINT_USERS
+--------------------------------------------------------
+
+  ALTER TABLE "COMPLAINT_USERS" ADD CONSTRAINT "COMPLA_US_COMPLA_US_ID_PK_PK" PRIMARY KEY ("COMPLAINT_USER_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "COMPLAINT_USERS" ADD CONSTRAINT "COMPLAINT_USERS_STATUS_CK" CHECK (status in ('ACT', 'INP', 'ESC', 'REP', 'REPP', 'EREP', 'EREREP', 'REPTRNFR', 'EREPTRNFR', 'REJ')) ENABLE;
+  ALTER TABLE "COMPLAINT_USERS" ADD CONSTRAINT "COMPLAINT_USERS_USER_ROLE_CK" CHECK (user_role in ('RECPT', 'OWNER', 'ESCAL')) ENABLE;
+  ALTER TABLE "COMPLAINT_USERS" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "COMPLAINT_USERS" MODIFY ("USER_ROLE" NOT NULL ENABLE);
+  ALTER TABLE "COMPLAINT_USERS" MODIFY ("COMPLAINT_USER_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table FAILED_JOBS
+--------------------------------------------------------
+
+  ALTER TABLE "FAILED_JOBS" ADD CONSTRAINT "FAILED_JOBS_ID_PK" PRIMARY KEY ("ID")
+  USING INDEX  ENABLE;
+  ALTER TABLE "FAILED_JOBS" MODIFY ("FAILED_AT" NOT NULL ENABLE);
+  ALTER TABLE "FAILED_JOBS" MODIFY ("EXCEPTION" NOT NULL ENABLE);
+  ALTER TABLE "FAILED_JOBS" MODIFY ("PAYLOAD" NOT NULL ENABLE);
+  ALTER TABLE "FAILED_JOBS" MODIFY ("QUEUE" NOT NULL ENABLE);
+  ALTER TABLE "FAILED_JOBS" MODIFY ("CONNECTION" NOT NULL ENABLE);
+  ALTER TABLE "FAILED_JOBS" MODIFY ("ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table JOBS
+--------------------------------------------------------
+
+  ALTER TABLE "JOBS" ADD CONSTRAINT "JOBS_ID_PK" PRIMARY KEY ("ID")
+  USING INDEX  ENABLE;
+  ALTER TABLE "JOBS" MODIFY ("CREATED_AT" NOT NULL ENABLE);
+  ALTER TABLE "JOBS" MODIFY ("AVAILABLE_AT" NOT NULL ENABLE);
+  ALTER TABLE "JOBS" MODIFY ("ATTEMPTS" NOT NULL ENABLE);
+  ALTER TABLE "JOBS" MODIFY ("PAYLOAD" NOT NULL ENABLE);
+  ALTER TABLE "JOBS" MODIFY ("QUEUE" NOT NULL ENABLE);
+  ALTER TABLE "JOBS" MODIFY ("ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table MIGRATIONS
+--------------------------------------------------------
+
+  ALTER TABLE "MIGRATIONS" ADD CONSTRAINT "MIGRATIONS_ID_PK" PRIMARY KEY ("ID")
+  USING INDEX  ENABLE;
+  ALTER TABLE "MIGRATIONS" MODIFY ("BATCH" NOT NULL ENABLE);
+  ALTER TABLE "MIGRATIONS" MODIFY ("MIGRATION" NOT NULL ENABLE);
+  ALTER TABLE "MIGRATIONS" MODIFY ("ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table MODEL_HAS_PERMISSIONS
+--------------------------------------------------------
+
+  ALTER TABLE "MODEL_HAS_PERMISSIONS" ADD CONSTRAINT "M_H_PERMIS_PERMIS_M_T_PK" PRIMARY KEY ("PERMISSION_ID", "MODEL_ID", "MODEL_TYPE")
+  USING INDEX  ENABLE;
+  ALTER TABLE "MODEL_HAS_PERMISSIONS" MODIFY ("MODEL_ID" NOT NULL ENABLE);
+  ALTER TABLE "MODEL_HAS_PERMISSIONS" MODIFY ("MODEL_TYPE" NOT NULL ENABLE);
+  ALTER TABLE "MODEL_HAS_PERMISSIONS" MODIFY ("PERMISSION_ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table MODEL_HAS_ROLES
+--------------------------------------------------------
+
+  ALTER TABLE "MODEL_HAS_ROLES" ADD CONSTRAINT "M_H_ROLES_ROLE_M_T_PK" PRIMARY KEY ("ROLE_ID", "MODEL_ID", "MODEL_TYPE")
+  USING INDEX  ENABLE;
+  ALTER TABLE "MODEL_HAS_ROLES" MODIFY ("MODEL_ID" NOT NULL ENABLE);
+  ALTER TABLE "MODEL_HAS_ROLES" MODIFY ("MODEL_TYPE" NOT NULL ENABLE);
+  ALTER TABLE "MODEL_HAS_ROLES" MODIFY ("ROLE_ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table NOTIFICATIONS
+--------------------------------------------------------
+
+  ALTER TABLE "NOTIFICATIONS" ADD CONSTRAINT "NOTIFICATIONS_ID_PK" PRIMARY KEY ("ID")
+  USING INDEX  ENABLE;
+  ALTER TABLE "NOTIFICATIONS" MODIFY ("DATA" NOT NULL ENABLE);
+  ALTER TABLE "NOTIFICATIONS" MODIFY ("NOTIFIABLE_ID" NOT NULL ENABLE);
+  ALTER TABLE "NOTIFICATIONS" MODIFY ("NOTIFIABLE_TYPE" NOT NULL ENABLE);
+  ALTER TABLE "NOTIFICATIONS" MODIFY ("TYPE" NOT NULL ENABLE);
+  ALTER TABLE "NOTIFICATIONS" MODIFY ("ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table PASSWORD_RESETS
+--------------------------------------------------------
+
+  ALTER TABLE "PASSWORD_RESETS" MODIFY ("TOKEN" NOT NULL ENABLE);
+  ALTER TABLE "PASSWORD_RESETS" MODIFY ("EMAIL" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table PERMISSIONS
+--------------------------------------------------------
+
+  ALTER TABLE "PERMISSIONS" ADD CONSTRAINT "PERMISSIONS_ID_PK" PRIMARY KEY ("ID")
+  USING INDEX  ENABLE;
+  ALTER TABLE "PERMISSIONS" MODIFY ("GUARD_NAME" NOT NULL ENABLE);
+  ALTER TABLE "PERMISSIONS" MODIFY ("NAME" NOT NULL ENABLE);
+  ALTER TABLE "PERMISSIONS" MODIFY ("ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table PUSH_SUBSCRIPTIONS
+--------------------------------------------------------
+
+  ALTER TABLE "PUSH_SUBSCRIPTIONS" ADD CONSTRAINT "PUSH_SUBSCRIPTIONS_ENDPOINT_UK" UNIQUE ("ENDPOINT")
+  USING INDEX  ENABLE;
+  ALTER TABLE "PUSH_SUBSCRIPTIONS" ADD CONSTRAINT "PUSH_SUBSCRIPTIONS_ID_PK" PRIMARY KEY ("ID")
+  USING INDEX  ENABLE;
+  ALTER TABLE "PUSH_SUBSCRIPTIONS" MODIFY ("ENDPOINT" NOT NULL ENABLE);
+  ALTER TABLE "PUSH_SUBSCRIPTIONS" MODIFY ("SUBSCRIBABLE_ID" NOT NULL ENABLE);
+  ALTER TABLE "PUSH_SUBSCRIPTIONS" MODIFY ("SUBSCRIBABLE_TYPE" NOT NULL ENABLE);
+  ALTER TABLE "PUSH_SUBSCRIPTIONS" MODIFY ("ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table REGIONS
+--------------------------------------------------------
+
+  ALTER TABLE "REGIONS" ADD CONSTRAINT "REGIONS_REGION_ID_PK_PK" PRIMARY KEY ("REGION_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "REGIONS" ADD CONSTRAINT "REGIONS_STATUS_CK" CHECK (status in ('PEN', 'ACT', 'INACT', 'REJ')) ENABLE;
+  ALTER TABLE "REGIONS" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "REGIONS" MODIFY ("REGION_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table ROLES
+--------------------------------------------------------
+
+  ALTER TABLE "ROLES" ADD CONSTRAINT "ROLES_ID_PK" PRIMARY KEY ("ID")
+  USING INDEX  ENABLE;
+  ALTER TABLE "ROLES" MODIFY ("GUARD_NAME" NOT NULL ENABLE);
+  ALTER TABLE "ROLES" MODIFY ("NAME" NOT NULL ENABLE);
+  ALTER TABLE "ROLES" MODIFY ("ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table ROLE_HAS_PERMISSIONS
+--------------------------------------------------------
+
+  ALTER TABLE "ROLE_HAS_PERMISSIONS" ADD CONSTRAINT "RO_HA_PERMIS_PERMI_ID_RO_ID_PK" PRIMARY KEY ("PERMISSION_ID", "ROLE_ID")
+  USING INDEX  ENABLE;
+  ALTER TABLE "ROLE_HAS_PERMISSIONS" MODIFY ("ROLE_ID" NOT NULL ENABLE);
+  ALTER TABLE "ROLE_HAS_PERMISSIONS" MODIFY ("PERMISSION_ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table SETTINGS
+--------------------------------------------------------
+
+  ALTER TABLE "SETTINGS" ADD CONSTRAINT "SETTINGS_SETTING_ID_PK_PK" PRIMARY KEY ("SETTING_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "SETTINGS" MODIFY ("SETTING_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table SOLUTION_AMENDMENTS
+--------------------------------------------------------
+
+  ALTER TABLE "SOLUTION_AMENDMENTS" ADD CONSTRAINT "SOL_AMEND_SOL_AMEN_ID_PK_PK" PRIMARY KEY ("SOLUTION_AMENDMENT_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "SOLUTION_AMENDMENTS" ADD CONSTRAINT "SOLUTION_AMENDMENTS_STATUS_CK" CHECK (status in ('PEN', 'VFD', 'DEL')) ENABLE;
+  ALTER TABLE "SOLUTION_AMENDMENTS" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "SOLUTION_AMENDMENTS" MODIFY ("SOLUTION_AMENDMENT_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table SUB_CATEGORIES
+--------------------------------------------------------
+
+  ALTER TABLE "SUB_CATEGORIES" ADD CONSTRAINT "SU_CATEGORI_SU_CATEGO_ID_PK_PK" PRIMARY KEY ("SUB_CATEGORY_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "SUB_CATEGORIES" ADD CONSTRAINT "SUB_CATEGORIES_STATUS_CK" CHECK (status in ('PEN', 'ACT', 'INACT', 'REJ')) ENABLE;
+  ALTER TABLE "SUB_CATEGORIES" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "SUB_CATEGORIES" MODIFY ("SUB_CATEGORY_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table SYSTEM_ROLES
+--------------------------------------------------------
+
+  ALTER TABLE "SYSTEM_ROLES" ADD CONSTRAINT "SYSTE_ROLE_SYSTE_ROL_ID_PK_PK" PRIMARY KEY ("SYSTEM_ROLE_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "SYSTEM_ROLES" MODIFY ("SYSTEM_ROLE_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table USERS
+--------------------------------------------------------
+
+  ALTER TABLE "USERS" ADD CONSTRAINT "USERS_EMAIL_UK" UNIQUE ("EMAIL")
+  USING INDEX  ENABLE;
+  ALTER TABLE "USERS" ADD CONSTRAINT "USERS_EMP_ID_UK" UNIQUE ("EMP_ID")
+  USING INDEX  ENABLE;
+  ALTER TABLE "USERS" ADD CONSTRAINT "USERS_USER_ID_PK_PK" PRIMARY KEY ("USER_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "USERS" MODIFY ("ACTIVE" NOT NULL ENABLE);
+  ALTER TABLE "USERS" MODIFY ("EMAIL" NOT NULL ENABLE);
+  ALTER TABLE "USERS" MODIFY ("LAST_NAME" NOT NULL ENABLE);
+  ALTER TABLE "USERS" MODIFY ("FIRST_NAME" NOT NULL ENABLE);
+  ALTER TABLE "USERS" MODIFY ("USER_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table ZONES
+--------------------------------------------------------
+
+  ALTER TABLE "ZONES" ADD CONSTRAINT "ZONES_ZONE_ID_PK_PK" PRIMARY KEY ("ZONE_ID_PK")
+  USING INDEX  ENABLE;
+  ALTER TABLE "ZONES" ADD CONSTRAINT "ZONES_STATUS_CK" CHECK (status in ('PEN', 'ACT', 'INACT', 'REJ')) ENABLE;
+  ALTER TABLE "ZONES" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "ZONES" MODIFY ("ZONE_ID_PK" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Ref Constraints for Table MODEL_HAS_PERMISSIONS
+--------------------------------------------------------
+
+  ALTER TABLE "MODEL_HAS_PERMISSIONS" ADD CONSTRAINT "MO_HA_PERMISSI_PERMISS_ID_FK" FOREIGN KEY ("PERMISSION_ID")
+	  REFERENCES "PERMISSIONS" ("ID") ON DELETE CASCADE ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table MODEL_HAS_ROLES
+--------------------------------------------------------
+
+  ALTER TABLE "MODEL_HAS_ROLES" ADD CONSTRAINT "MODEL_HAS_ROLES_ROLE_ID_FK" FOREIGN KEY ("ROLE_ID")
+	  REFERENCES "ROLES" ("ID") ON DELETE CASCADE ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table ROLE_HAS_PERMISSIONS
+--------------------------------------------------------
+
+  ALTER TABLE "ROLE_HAS_PERMISSIONS" ADD CONSTRAINT "ROL_HA_PERMISSION_ROL_ID_FK" FOREIGN KEY ("ROLE_ID")
+	  REFERENCES "ROLES" ("ID") ON DELETE CASCADE ENABLE;
+  ALTER TABLE "ROLE_HAS_PERMISSIONS" ADD CONSTRAINT "RO_HA_PERMISSIO_PERMISSI_ID_FK" FOREIGN KEY ("PERMISSION_ID")
+	  REFERENCES "PERMISSIONS" ("ID") ON DELETE CASCADE ENABLE;

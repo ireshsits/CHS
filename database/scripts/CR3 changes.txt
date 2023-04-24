@@ -1,0 +1,32 @@
+Change area and category table data.
+Added category table new data.
+change area table data.
+added new short_name field to area table.
+Inserted new area_id_fk column to complaints table.
+Add new setting - CATEGORY_SETTINGS
+Chnage sequences names in sql file.
+Added new mode inbound call from CCC.
+Added new column short_name to complaint_modes.
+Change analyses categories.
+Added new analyses to table.
+Added primary_owner, system_role to complaint_users.
+change branch_department types enum.
+Added a zone_id_fk to branch_department.
+added new roles in system roles
+added new roles to roles
+
+commit id e0cb3ab contain the changes done in roles and branchDepartment to resolve branch and department parent identify.
+
+create solution_histories table
+
+
+
+
+//Details in pettah branch device
+
+'4', '1', '1', '0', '0', '18:93:7F:9F:C0:F9', 'A4:58:0F:45:76:AD', NULL, '805MJ8AA7D', '1.0.0', '2020-10-14 15:00:09', '2020-10-15 13:35:22', '0', '0', 'ONL', '2020-10-02 15:28:53', '2020-10-15 13:35:22', NULL
+'1', '1', '1', '0', '0', '18:93:7F:9D:8D:67', 'a4:58:0f:45:76:B2', NULL, NULL, '1.0.0', '2020-10-15 13:11:25', '2020-10-15 13:30:28', '0', '0', 'CME', '2020-10-02 13:44:23', '2020-10-15 13:36:02', NULL
+
+'1', '1', '1', '0', '0', '18:93:7F:9F:C0:F9', 'A4:58:0F:45:76:AD', NULL, '805MJ8AA7D', '1.0.0', '2020-10-15 13:11:25', '2020-10-15 13:30:28', '0', '0', 'CME', '2020-10-02 13:44:23', '2020-10-15 13:36:02', NULL
+
+If the device deleted feedbacks should be loaded or not. need to verify and fix that.
